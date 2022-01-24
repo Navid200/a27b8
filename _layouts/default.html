@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div id="header">
+        <!-- <nav3> -->
+          <ul>
+            <li class="fork"><a class="one" href="https://navid200.github.io/xDrip/">xDrip Support</a></li>
+            <!-- <li class="imaga"><img src="https://navid200.github.io/xDrip/assets/img/avatar-icon.png" ></li> -->
+            <li class="cont"><a class="one" href="https://navid200.github.io/xDrip/docs/Contact.html">Contact</a></li>
+            <!-- <li class="imaga"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></li> -->
+            <li class="imaga"><a class="two" href="https://github.com/NightscoutFoundation/xDrip"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></a></li>
+          </ul> 
+        <!-- </nav3> -->
+      </div>
+  
+
+    <div class="wrapper">
+
+      <section>
+
+        {{ content }}
+
+      </section>
+
+    </div>
+  </body>
+</html>
