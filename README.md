@@ -9,6 +9,26 @@ The documentation, instructions and guides here are provided to help you use xDr
 You need the advice of a competent medical professional to control your, or your loved one's, diabetes. Neither xDrip nor this page provides any medical advice.  
   
 <br/>  
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="/path/to/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
+
+
   
 ### Installation  ![](./docs/images/Install.png)
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
