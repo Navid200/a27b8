@@ -1,16 +1,15 @@
 ---
-layout: null
 ---
 [
   {% for post in site.posts %}
     {
-      "title"       : "{{ post.title | escape }}",
-      "category"    : "{{ post.category }}",
-      "tags"        : "{{ post.tags | join: ', ' }}",
-      "url"         : ".{{ post.url }}",
-      "date"        : "{{ post.date }}",
-      "description" : "{{ post.description }}",
-      "content"     : {{ post.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+
+      "title"    : "{{ post.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "date"     : "{{ post.date }}"
+
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
