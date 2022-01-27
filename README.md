@@ -19,6 +19,8 @@ You need the advice of a competent medical professional to control your, or your
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
 [xDrip is not in Google Play Store ...](./docs/App-store.md)  
+
+[Search](./docs/search.md)  
   
   
 ### Requirements  ![](./docs/images/Requirements.png)  
