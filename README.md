@@ -17,7 +17,7 @@ You need the advice of a competent medical professional to control your, or your
 </div>
 
 <!-- Script pointing to search-script.js -->
-<script src="/path/to/search-script.js" type="text/javascript"></script>
+<script src="./js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
