@@ -24,7 +24,7 @@ You need the advice of a competent medical professional to control your, or your
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
+  json: './search.json'
 })
 </script>
 
