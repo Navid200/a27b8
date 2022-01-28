@@ -10,24 +10,6 @@ You need the advice of a competent medical professional to control your, or your
   
 <br/>  
 
-<!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
-</div>
-
-<!-- Script pointing to search-script.js -->
-<script src="./js/search-script.js" type="text/javascript"></script>
-
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: './search.json'
-})
-</script>
-
 
   
 ### Installation  ![](./docs/images/Install.png)
@@ -39,8 +21,6 @@ SimpleJekyllSearch({
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
 [xDrip is not in Google Play Store ...](./docs/App-store.md)  
-
-[Search](./docs/search.md)  
   
   
 ### Requirements  ![](./docs/images/Requirements.png)  
