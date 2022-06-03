@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: xDrip Discussions
     url: https://github.com/NightscoutFoundation/xDrip/discussions
-    about: If you are an xDrip user and need support (how to, new feature, or bug), please post here. It's a forum. So, all posts related to your question or proposal stay together and are easy to find. All developers and users can access them.  
+    about: If you need xDrip support (bug report, feature request, or questions), please post here.   
