@@ -1,5 +1,6 @@
 ---
-name: "\U0001F41BBug report only if asked by a developer.  Otherwise, please open a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions)\U0001F41B"
+name: "\U0001F41BBug report\U0001F41B"
+about: Create a report only if the developers asked you to do so
 label: bug
 ---
 
