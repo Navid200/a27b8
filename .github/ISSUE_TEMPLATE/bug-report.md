@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41B Please don't open an issue except when asked by a developer in a discussion (see below)"
+name: "\U0001F41B Please don't open an issue except when asked by a developer in a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) (see below)"
 about: Bug report
 label: bug
 ---
