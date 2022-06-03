@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41BBug report\U0001F41B"
+name: "\U0001F41BBug report"
 about: Create a report only if the developers asked you to do so
 label: bug
 ---
