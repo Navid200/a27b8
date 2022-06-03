@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41B   Please open an issue only if asked by a develoepr in a discussion (below)"
+name: "\U0001F41B   Please open an issue only if asked by a developer in a discussion (below)"
 about: Bug report
 label: bug
 ---
