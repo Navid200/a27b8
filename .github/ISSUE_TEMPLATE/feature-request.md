@@ -1,8 +1,4 @@
----
 
-about: Feature request
-label: enhancement
----
 
 ### Please don't open an issue if you haven't already consulted with the developers
 - Please go back and use one of the suggested support channels (on the previous page) to present your case if you haven't already.
