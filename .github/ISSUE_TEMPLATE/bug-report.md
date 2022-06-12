@@ -1,6 +1,6 @@
 ---
 name: "Please do not open an issue unless asked to do so by a developer in a discussion (see below)"
-about: 
+about: Please include a link to the discussion in the first post.
 label: bug
 ---
 
