@@ -1,5 +1,5 @@
 ---
-name: "\U0001F4A1 Please do not open an issue unless asked to do so by a developer in a discussion (see below)"
+
 about: Feature request
 label: enhancement
 ---
