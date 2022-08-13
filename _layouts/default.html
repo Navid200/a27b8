@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <link rel="shortcut icon" type="image/x-icon" href= "{{ "./docs/images/favicon.ico?" | absolute_url }}">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -10,18 +11,16 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
-    {% include search.html %}
-    {% include javascripts.html %}
   </head>
   <body>
     <div id="header">
         <!-- <nav3> -->
           <ul>
-            <li class="fork"><a class="one" href="https://navid200.github.io/xDrip/">xDrip Support</a></li>
+            <li class="imag_L"><a class="two" href="https://navid200.github.io/xDrip/"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></a></li>
             <!-- <li class="imaga"><img src="https://navid200.github.io/xDrip/assets/img/avatar-icon.png" ></li> -->
             <li class="cont"><a class="one" href="https://navid200.github.io/xDrip/docs/Contact.html">Contact</a></li>
             <!-- <li class="imaga"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></li> -->
-            <li class="imaga"><a class="two" href="https://github.com/NightscoutFoundation/xDrip"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></a></li>
+            <li class="RN"><a class="one" href="https://navid200.github.io/xDrip/docs/ReleaseNotes.html">Changelog</a></li>
           </ul> 
         <!-- </nav3> -->
       </div>
@@ -29,10 +28,6 @@
 
     <div class="wrapper">
 
-      <div class="search-icon-container">
-        <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
-      </div>
-      
       <section>
 
         {{ content }}
