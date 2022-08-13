@@ -11,6 +11,9 @@ You need the advice of a competent medical professional to control your, or your
 <br/>  
 
 {% include search-lunr.html %}
+
+{% include custom.html %}
+
   
 ### Installation  ![](./docs/images/Install.png)
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
