@@ -8,8 +8,10 @@ body {
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#101010;
   font-weight: normal;
+ // background: #252525;
   background: #f0f0f0;
   background-attachment: fixed !important;
+//  background: linear-gradient(#2a2a29, #1c1c1c);
   background: linear-gradient(#f0f0f0, #f0f0f0);
 }
 
@@ -48,6 +50,9 @@ h4, h5, h6 {
 h3 {
   font-size: 18px;
   line-height: 24px;
+//  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+//  font-weight: normal;
+//  color: #b6b6b6;
 }
 
 a {
@@ -165,7 +170,9 @@ dt {
   height: 60px;
   width: 100%;
   position: fixed;
-  background: #2a2a2a;
+//  background: url(../images/nav-bg.gif) #353535;
+//  background: #2a2a2a;
+  background: #330066;
   border-bottom: 2px solid #434343;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
 
@@ -196,6 +203,7 @@ dt {
         font-size: 14px;
 
         a.one {
+    //      color: #ffbf00;
           color: #f0f0f0;
           font-weight:400;
           text-decoration:none;
@@ -225,6 +233,11 @@ dt {
           color: #ffbf00;
           font-weight:400;
           text-decoration:none;
+          border: 1px solid #200000;
+     //     background: linear-gradient(#333333, #333333);
+     //     border-radius: 1px;
+    //      box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 1px rgba(0,0,0,.7);
+     //     box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 0px rgba(0,0,0,.7);
           
         }
 
@@ -244,19 +257,26 @@ dt {
           font-size: 11px;
         }
         
+        &.RN {
+          float: right;
+          margin-right: 0px;
+        }
+        
         &.imaga {
           float: right;
+          margin-right: 10px;
+          margin-top: 10px;
+         }
+        
+        &.imag_L {
+          float: left;
+          margin-left: 0px;
           margin-top: 10px;
          }
         
         &.cont {
           float: left;
           margin-left: 10px;
-        }
-        
-        &.srch {
-          float: left;
-          margin-left: 20px;
         }
         
       }
